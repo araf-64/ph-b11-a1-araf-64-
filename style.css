@@ -249,7 +249,7 @@ body {
 #opinion {
   width: 1536px;
   padding: 30px;
-  border: 1px solid #0e0e0e;
+  border: none;
   border-radius: 16px;
   background-color: white;
   font-size: 20px;
