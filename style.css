@@ -310,3 +310,71 @@ body{
     color: white;
     padding: 14px 28px;
 }
+
+/* dontaion section styles */
+#donation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.donation-title-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.donation-title{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.donation-description{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.donation-amount{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 30px;
+}
+.donate-taka{
+    padding: 50px 70px;
+    border: 1px solid #00000023;
+    border-radius: 16px;
+    background-color: white;
+    font-size: 48px;
+    font-weight: bold;
+}
+.donate-taka:hover{
+    cursor: pointer;
+    background-color: #C6E4D6;
+}
+.donate-custom-amount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#custom-donation-amount{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px 600px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 30px;
+}
+.complete-donation{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #006A50;
+    border-radius: 8px;
+    border: none;
+    padding: 18px 36px;
+    margin-bottom: 80px;
+}
