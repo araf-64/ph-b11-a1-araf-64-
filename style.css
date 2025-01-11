@@ -70,6 +70,7 @@ body {
 .banner-title {
   font-size: 84px;
   font-weight: bold;
+  color: #0e0e0e;
   margin-bottom: 24px;
 }
 #banner input {
@@ -140,7 +141,7 @@ body {
 }
 .vision-heading {
   font-size: 42px;
-  color: #0e0e0ea4;
+  color: #0e0e0e;
   margin-bottom: 24px;
 }
 .vision-description {
@@ -233,6 +234,7 @@ body {
 .quotes-description {
   font-size: 18px;
   font-weight: 400;
+  color: #0e0e0ea6;
   margin-bottom: 24px;
 }
 .quotes-signature {
@@ -243,6 +245,7 @@ body {
 .quotes-post {
   font-size: 18px;
   font-weight: 400;
+  color: #0e0e0ea6;
 }
 
 /* opinion section styles */
@@ -262,8 +265,9 @@ table {
 }
 th,
 td {
+    text-align: left;
   border: 1px solid #dddddd;
-  text-align: left;
+  color: #0e0e0ea6;
   padding: 8px;
 }
 th {
@@ -369,6 +373,7 @@ tr {
   font-size: 18px;
   font-weight: 400;
   text-align: center;
+  color: #0e0e0ea6;
   margin-bottom: 30px;
 }
 .donation-amount {
@@ -439,11 +444,13 @@ tr {
   font-size: 48px;
   font-weight: bold;
   padding: 30px 60px;
+  color: #0e0e0e;
   margin-bottom: 10px;
 }
 .newsletter-description {
   font-size: 18px;
   font-weight: 400;
+  color: #0e0e0ea6;
   margin-bottom: 30px;
 }
 
@@ -467,6 +474,10 @@ tr {
   border-radius: 0 16px 16px 0;
   color: white;
   background-color: #006a50;
+}
+.newsletter-commitment{
+    font-size: 18px;
+    color: #0e0e0ea6;
 }
 
 /* footer section styles */
