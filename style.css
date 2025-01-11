@@ -158,19 +158,19 @@ body{
 }
 .vision-pillar-1{
     padding: 32px;
-    border: 1px solid #0e0e0e23;
+    border: none;
     border-radius: 16px;
     background-color: #548ff53a;   
 }
 .vision-pillar-2{
     padding: 32px;
-    border: 1px solid #0e0e0e23;
+    border: none;
     border-radius: 16px;
     background-color: #C6E4D6;
 }
 .vision-pillar-3{
     padding: 32px;
-    border: 1px solid #0e0e0e23;
+    border: none;
     border-radius: 16px;
     background-color: #F7EBCF;
 }
@@ -218,5 +218,32 @@ body{
     cursor: pointer;
 }
 
+.vision-quotes{
+    background-image: url(assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 80px;
+}
+.quotes-description{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+.quotes-signature{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.quotes-post{
+    font-size: 18px;
+    font-weight: 400;
+}
 
 
