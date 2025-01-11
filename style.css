@@ -92,6 +92,7 @@ body{
     font-size: 42px;
     font-weight: bold;
     margin-bottom: 32px;
+    color: #0E0E0E;
 }
 .pillars-container{
     width: 1590px;
@@ -104,7 +105,7 @@ body{
     padding: 24px;
     background-color: white;
 }
-.pillar>img{
+.pillar-image{
     width: 70px;
     margin-bottom: 24px;
 }
@@ -117,6 +118,105 @@ body{
 .pillar-description{
     font-size: 18px;
     font-weight:400;
-    color: #0E0E0E;
-    opacity: 50%;
+    color: #0e0e0e8a;
 }
+
+
+/* vision section styles */
+#vision{
+    width: 1590px;
+    display: flex;
+    flex-direction: column;
+}
+.vision-heading-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.vision-heading{
+    font-size: 42px;
+    color: #0e0e0ea4;
+    margin-bottom: 24px;
+}
+.vision-description{
+    font-size: 18px;
+    color: #0e0e0ea6;
+    margin-bottom: 40px;
+}
+.vision-pillar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start;
+    gap: 30px;
+    margin-bottom: 80px;
+}
+.vision-image{
+    width: 70;
+    margin-bottom: 24px;
+}
+.vision-pillar-1{
+    padding: 32px;
+    border: 1px solid #0e0e0e23;
+    border-radius: 16px;
+    background-color: #548ff53a;   
+}
+.vision-pillar-2{
+    padding: 32px;
+    border: 1px solid #0e0e0e23;
+    border-radius: 16px;
+    background-color: #C6E4D6;
+}
+.vision-pillar-3{
+    padding: 32px;
+    border: 1px solid #0e0e0e23;
+    border-radius: 16px;
+    background-color: #F7EBCF;
+}
+.vision-pillar-heading{
+    font-size: 24px;
+    margin-bottom: 24px;
+    color: #0E0E0E;
+}
+.vision-pillar-description{
+    font-size: 22px;
+    margin-bottom: 24px;
+    color: #0e0e0e8a;
+}
+
+.pillar-button-1{
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #5490F5;
+}
+.pillar-button-2{
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #09A15C;
+}
+.pillar-button-3{
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #FFC239;
+}
+
+.pillar-button-1:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+
+
